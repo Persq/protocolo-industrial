@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "ddee9118-96dd-4685-9425-ad7cd45276d2",
+		"name": "desafio_itworkers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/test"
+			},
+			"response": []
+		},
+		{
+			"name": "IndustrialProtocol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tuplas\": [\r\n        {\"start\":616, \"length\":8, \"callback\":\"cb20\"}, \r\n        {\"start\":14, \"length\":6, \"callback\":\"cb50\"}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/industrialProtocol"
+			},
+			"response": []
+		}
+	]
+}

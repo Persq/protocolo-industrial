@@ -1,0 +1,8 @@
+-Installar Redis
+$ docker pull redis
+
+-Crear Instancia Redis
+$ docker run -d -p 6379:6379 --name persqredis redis
+
+-Correr Redis
+$ docker start persqredis
